@@ -1,0 +1,869 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <meta name="viewpoint" content="width=device-width,initial scale=1">
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+
+            }
+            body{
+               background-size: cover;
+               background-position: center;
+              font-family: sans-serif;
+               text-decoration: none;
+               box-sizing: border-box;
+               background-color: whitesmoke
+
+            }
+            .wrapper{
+                margin: auto;
+                background-color: rgb(247, 252, 255);
+                width: 1350px;
+                height: 1600px;
+            }
+        .menu {
+                width: 1000;
+                height: 10px;
+                position: relative;
+                left: 10px;
+                top: 3px;
+                
+            }
+            .menu .logo 
+            {
+                float: left;
+            }
+            .menu ul {
+            display: inline-flex;
+            list-style: none;
+            color: rgb(14, 13, 13);
+            text-align: center;
+            position: relative;
+            top: 50px;
+        }
+        .menu ul li {
+            width: 80px;
+            margin: 10px;
+            padding: 15px;
+                             
+        }
+        .menu ul li a { 
+            color:rgb(8, 8, 8);
+            text-decoration: none;
+               
+        }
+        .active, .menu ul li:hover
+  {
+     background: rgb(252, 214, 2);
+      border: 3px solid #555;
+
+      }
+      .menu .call
+        {
+            float:right;
+            position: relative;
+            left:50px;
+            bottom:25px;
+                  
+            
+        }
+        .menu .mbar .media {
+            position: relative;
+            bottom:25px;
+        }
+        
+        .menu .mbar .media h3
+         {
+            position: relative;
+            left:850px;            
+            float: left;
+            
+        }
+        .menu .mbar .media .icon i{
+            color: blue;
+            width: 50px;
+            position: relative;
+            top:40px ;
+            left: 725px;
+        }
+        .backimg {
+            width: 1350px;
+            position: relative;  
+            bottom: 40px;         
+            color: rgb(242, 240, 245);
+            overflow: hidden;
+            font-family: cursive;
+            border-radius: 30px;
+
+            
+        }
+
+        .bgtext h1 {
+    position:absolute;
+    top :150px;
+    left:180px;
+    text-shadow:2px 2px #FF0000;
+}
+.menu .mbar .vl{
+    border-left: 10px solid black;
+height: 1000px;
+}
+.bg2 {
+    width: 1350;
+    height: 60px;    
+    background-color: gray;
+    position: relative;
+    bottom: 40px;   
+    border-radius: 30px;
+
+}
+.bg2 .text {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.media .icon{
+    font-size: 20px;
+}
+.detail1{
+    width: 1350px;
+    height: 300px;
+    text-decoration: none;
+    background: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    
+
+}
+.detail1 .det h3
+{
+    padding: 40px;
+    font-size: 30px;
+
+}
+.detail1 .det p
+{
+    font-size: 20px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding: 30px 30px;
+   
+}
+.detail1 .readmore button
+{
+    font-size: 15px;
+background-color: orangered;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+top: 30px;
+}
+.ourservice{
+    width: 1350px;
+    height: 1000px;
+    background-color: rgb(38, 38, 61);
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 30px;
+
+    
+
+}
+.ourservice h1
+
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 30px;
+    text-align: center;
+}
+.ourservice .sbox {
+   
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(245, 243, 242);
+    width: 325px;
+    height: 380px;
+    position:relative;
+    left:100px;
+    padding: 15px 15px;
+    border-collapse:collapse;
+    border-spacing: 15px;
+    margin: 30px;
+
+}
+.ourservice .sbox h3{
+    text-align: center;
+    color: red;
+}
+.ourservice .sbox img{
+    position: relative;;
+    left:50px
+}
+.ourservice .sbox p{
+    text-align: justify;
+    padding: 3px;
+}
+.ourservice .sbox a{
+    color: red;
+    text-decoration: none;
+}
+
+.wedo {
+    width: 1000px;
+    height: 900px;
+    position: relative;
+    left: 90px;
+}
+.wedo h1 {
+    font-size: 25px;
+    color: tomato;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+.wedo p {
+    color: solid rgb(49, 45, 45);
+    font-size: 20px;
+    font-family: cursive;
+    text-align: justify;
+    padding: 10px;
+}
+.wedo ul li {
+    font-size: 18px;
+    padding: 5px;
+    font-family: cursive;
+position: relative;
+left:180px;
+} 
+.client {
+    width: 1300px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+    left: 90px;
+    color: black;
+
+}
+.client .partner {
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    float: left;
+    position: relative;
+    top: 30px;
+left: 30px;
+background-color: burlywood;
+margin: 10px;
+}
+.Testimonials {
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    left: 140px;
+    
+}
+.Testimonials img {
+    border-radius: 75%;
+    position: relative;
+    left: 900px;
+    bottom: 30px;
+}
+.Testimonials .ard {
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    left:70px;
+
+}
+.Testimonials .button button{
+    font-size: 20px ;
+    border-radius: 40px;
+    width: 20px ;
+    height: 20px;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+.Testimonials .button button:hover{background-color: orange;}
+
+
+#demo {
+ color: white;
+ text-align: justify;
+ padding: 30px;
+ font-size: 20px;
+
+}
+#myHeader {
+    color: white;
+ text-align: justify;
+ padding: 30px;
+ font-size: 20px;
+}
+.Testimonials .note 
+{
+    width: 700px;
+    height: 200px;
+    background-color: rgb(48, 45, 45);
+    box-sizing: border-box;
+    border:5px gray;
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    display: block;
+    border-radius: 20px;
+    
+  }
+  
+
+.touch {
+    width: 1350px;
+    height: 300px;
+    background-color:rgb(38, 38, 61);
+    border-radius: 30px;
+
+}
+.touch h1 { 
+    color: white; 
+   text-align: center;
+   padding: 30px;
+
+
+}
+.touch p {
+    color: white; 
+    
+    text-align: center;
+    padding: 30px;
+}
+.touch .button {
+    color: white;
+    position: relative;
+    left: 45%;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    background-color: orangered;
+    cursor: pointer;
+}
+.touch button :hover {background-color: white;}
+
+.mbar .dropbtn{
+    
+  color:black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.mbar .sbar {
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.mbar .sbar a {
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+  
+}
+.mbar {
+    position: relative;
+    display:block;
+}
+.sbar a:hover {background-color: orange}
+.sbar a {
+    text-align: left;
+}
+
+.dropbtn:hover .sbar {
+  display:block;
+}
+
+.lastbox {
+    width: 1350px;
+    height: 350px;
+    background-color: orange;   
+    text-align: center;
+}
+
+.lastbox .quick {
+    position: relative;
+    left:50px;
+    top: 40px;
+    float: left;
+    text-align: left;
+    padding: 30px;
+    color: white;
+}
+.lastbox .quick a{
+    padding: 10px;
+    position: relative;
+    left: 90px;
+    text-decoration: none;
+    list-style-type: circle;
+    color: white;
+}
+
+ .lastbox .OurServices {
+    position: relative;
+    left: 90px;
+    top: 40px;
+    float: left;
+      text-align: left;
+    padding: 30px ;
+    color: white;
+ }
+ .lastbox .OurServices a{
+    padding: 10px;
+    position: relative;
+    left: 90px;
+    text-decoration: none;
+    list-style-type: circle;
+    color: white;
+}
+ .lastbox .contactaddress
+ 
+    {
+    position: relative;
+    left: 60px;
+    top: 40px;
+    float: left;
+    color: white;
+   
+     }
+     .lastbox .contactaddress .map{
+         
+         position: relative;
+         left: 80px;
+         width: 500px;
+         top: 40px;
+         color: white;
+     }
+     .lastbox .contactaddress .map h4 {
+         padding: 10px;
+         position: relative;
+         right: 40px;;
+         
+     }
+     .lastbox .contactaddress .map h5 {
+         position: relative;
+         right: 40px;
+     }
+
+
+     .lastbox .contactaddress .phone{
+         
+         position: relative;
+         right:40px;
+         top: 40px;
+         color: white;
+
+     }
+
+.lastbox .contactaddress img 
+     {
+         padding: 10px;
+         float: left;
+         border-radius: 50%;
+         height: 90px;
+     }
+     .last {
+         height: 35px;
+         text-align: center;
+     }
+     .copy {
+         float: left;
+         position: relative;
+         left: 50px;
+         top: 10px;
+
+     }
+     .last .terms {
+         position: relative;
+         left: 350px;
+         top: 10px;
+     }
+     .last .terms a{
+         float: left;
+         
+     }
+    
+    </style>
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="menu">
+            <div class="logo">
+                <img src="./images.png" width="250px";>
+            </div>
+            <div class="mbar">
+                
+                <ul>
+                    <li class ="active"><a href="#home"><i class="fa fa-home">Home
+                   </i> </li></a>
+                   <li >About</li>
+                    <div class="dropbtn"> 
+                     <li><a href="#services"> services</a></li>
+                     <div class="sbar">
+                        <a href="#">Responsive Web Design Services</a>
+                         <a href="#">Web Development Services</a>
+                         <a href="#">eCommerce Web Design</a>
+                         <a href="#">WordPress Web Design</a>
+                         <a href="#">Graphic Design Services</a>
+                         <a href="#">eCommerce Web Design</a>
+                    </div> 
+                    </div>
+                     
+                    <li><a href="#portfolio"> portfolio</a></li>
+                    <li><a href="C:\Users\Anneanand\Documents\chennai\contact.html"> contact</a></li>
+                </ul>
+                <div class="vl>"></div>
+
+            <div class ="call">
+                <h3 >Call us Now</h3> <br>
+                <p style="color:solid gray;">+91-9790457257.
+                </p>
+            </div>
+            <div class=" media">
+                <h3 style="color: black;">Follow Us On</h3>
+                <div class="icon">
+                    <i class="fa fa-home" aria-hidden="true">
+                    </i>
+                    <i class="fa fa-home" aria-hidden="true">
+                    </i>
+                    <i class="fa fa-home" aria-hidden="true">
+                    </i>
+       </div>
+   
+        </div>
+        </div>  
+        </div>
+           
+        <div class="backimg">
+            
+            <img src="./close-up-of-tulips-blooming-in-field-royalty-free-image-1584131616.jpg"width="1350" 
+            height="500">
+            <div class="bgtext">
+            <h1 >Imagination <br>    is the begining of Creation</h1>
+        </div>
+        </div>
+        <div class ="bg2">
+            <div class= " text">
+            <h3 >High Quality Web Services With Guaranteed Results At Web Design Company Chennai</h3>
+        </div>
+        </div>
+<div class ="detail1">
+    <div class="det">
+    <h3 >Chennai Web Design Company</h3>
+    <br>
+    <p>Have you thought of developing a professional standard website to outperform 
+        your competitors? Hire the best web designers to create a mobile-friendly, 
+        secure and fastest-running website. Our web design company in Chennai will make 
+        your site easily visible to the online users.Get a lead-focused and high-performing 
+        website design from our company.</p>
+</div>
+<br>
+<div class="readmore">
+    <button class="button">Read more</button>
+</div>
+</div>
+
+<div class="ourservice">
+       <h1>our service</h1>
+
+<div class ="sbox">
+    <img src="./aa.jpg  " width="200px" height="150px">
+    <h3> Responsive Web Design Services
+    </h3>
+    <p>The significance of mobile friendly websites cannot be ignored by businesses 
+        as more and more people use mobiles for their browsing, 
+        purchasing, and transactions . . .</p>
+    <a href=" Readmore" >Readmore</a>
+</div>
+
+    <div class="sbox">
+        <img src="./rd.jpg" width="200px" height="150px">
+        <h3> Web Development Services
+        </h3>
+        <p>We develop bespoke websites that are stunning, responsive and 
+            innovative providing the ultimate solution for your business.
+            We create personalized . . .</p>
+
+            <br>
+        <a href=" Readmore" >Readmore</a>
+
+
+
+    </div>
+    <div class="sbox">
+        <img src="./stv.jpg" width="200px" height="150px">
+        <h3> eCommerce Web Design</h3>
+        <p>Be a step ahead of your competitors always with our state of the 
+            art e-commerce web design and development services. We offer 
+            e-commerce services for . . .</p>
+            <br>
+
+        <a href=" Readmore" >Readmore</a>
+
+        
+    </div>
+    <div class="sbox">
+        <img src="./el.JPG" width="200px" height="150px">
+        <h3> WordPress Web Design
+        </h3>
+        <p>The significance of mobile friendly websites cannot be ignored by businesses 
+            as more and more people use mobiles for their browsing, 
+            purchasing, and transactions . . .</p>
+            <br>
+
+        <a href=" Readmore" >Readmore</a>
+
+            </div>
+    <div class="sbox">
+        <img src="./aronis.JPG" width="200px" height="150px">
+        <h3> Graphic Design Services
+        </h3>
+        <p>Offer your website the WordPress Benefit with our WordPress design 
+            and development services. We provide professional and top notch 
+            web solutions. .</p>
+            <br>
+
+        <a href=" Readmore" >Readmore</a>
+
+        
+    </div>
+    <div class="sbox">
+        <img src="./IMG_20140829_161502.jpg" width="200px" height="150px">
+        <h3> Logo Design Services
+        </h3>
+        <p>Ensure 100% customer satisfaction with our custom made logo design services. 
+            Our in-house designer team makes sure you are provided with a 
+            unique and customized . . .
+        </p>
+        <br>
+
+        <a href=" Readmore" >Readmore</a>
+
+    </div>
+</div>
+
+<div class="wedo">
+    <h1>What We Do</h1>
+    <br>
+    <p>Chennai Web Design Company takes pride in its outstanding web design and development services,
+         which offer the following advantages:</p>
+         <ul style="list-style-type: disc">
+             <li> All our services cater to important facets of a business and to the key requirements.
+            </li>
+            <li>We have an expert team of web developers and designers ready to provide their expertise to any component of website development.
+                </li>
+                <li>
+                    As a leading Chennai web design company, we possess vast experience in the field ensuring you get the best service for your business website.
+
+                </li>
+                <li>
+                    Customer satisfaction is our primary objective and we strive to do everything possible to achieve this objective.
+
+                </li>
+         </ul>
+
+         <br>
+         <h1>Get the Chennai Web Design Company Advantage
+        </h1>
+        <p>
+            We specialize in providing appealing and attention grabbing designs that keep visitors interested and engaged. They stay longer on your site and you get more conversions and revenue.
+
+
+        </p>
+
+        <br>
+        <h1>Chennai Web Design Company makes this possible by
+        </h1>
+        <ul style="list-style-type: circle">
+            <li>
+                Easy navigation           </li>
+                <li>Simple and attractive user interface features                </li>
+                <li>Efficient search functions that produce quick results
+                </li>
+                <li>Appealing and attractive designs
+                </li>
+                <li>Convenient social media features
+                </li>
+        </ul>
+
+</div>
+<div class="client">
+    <h1> OUR CLIENT</h1>
+
+    <div class ="partner">
+        <img src="./msoft.png" width="245px" height="145px">
+        
+    </div>
+    <div class ="partner">
+        <img src="./global-tourism.jpg" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./cisco.png" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./css.jpg" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./wipro.jpg" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./patni-logo.jpg" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./isoft.png" width="240px" height="145px">
+
+        
+    </div>
+    <div class ="partner">
+        <img src="./linux.jpg" width="240px" height="145px">
+
+        
+    </div>
+    </div>
+
+<div class =" Testimonials">
+    <img src ="./global-tourism.jpg" style="width: 200px;">
+    <div class ="ard">
+       <h3>The world</h3>
+           <p>Digital Markting</p>
+           <div class ="note">
+           <p id="myHeader">I am extremely happy that I found Chennai Web Design Company. Thanks to the team and for their hard work because they have redesigned my website beautifully and I am highly satisfied with their work. Also the cost is affordable.";
+        </p>
+
+           
+        </div>
+    </div>
+    <div class="button">
+        
+        <button onclick="a()"> </button>
+        <button onclick="b ()"> </button>
+        <button onclick="c()"> </button>
+
+    </div>
+    <script>
+        function a() {
+          document.getElementById("myHeader" ) .innerHTML = "I am extremely happy that I found Chennai Web Design Company. Thanks to the team and for their hard work because they have redesigned my website beautifully and I am highly satisfied with their work. Also the cost is affordable.";
+        }
+        </script>
+        <script>
+            function b() {
+              document.getElementById("myHeader").innerHTML = "I am glad that I chose Chennai Web Design Company for designing my website. They have done a great job and their customer service is also extremely good. I will highly recommend their service.";
+            
+            }
+            </script>
+            <script>
+                function c() {
+                  document.getElementById("myHeader").innerHTML = "As a successful client of Chennai Web Design Company I am happy to recommend them to my friends. They have done really a great job in designing my website. I am undoubtedly happy that I chose them.";
+                
+                }
+                </script>
+    
+
+
+</div>
+<div class ="touch">
+    <h1 > Get in Touch with Us Now    </h1>
+    <br>
+    <p>Our outstanding services have gained us a reputation of the best web development 
+        company in Chennai. To utilize our exceptional services and experience a 
+        higher conversion of visitors into customers and better sales, contact us 
+        and get a quote on our valuable web services.
+
+    </p>
+    <a href="#"><button class="button"> Call Us now </button></a>
+
+</div>
+    <div class="lastbox">
+        <div clsas ="end">
+        <div class ="quick">
+            <h1>quick Link</h1>
+            <ul>
+               <a href="#"><li>Home</li></a>
+               <a href="#"><li>About</li></a>
+                <a href="#"><li>service</li></a>
+                <a href="#"><li>Portfolio</li></a>
+
+                <a href="#"><li>conact</li></a>
+              </ul>
+        </div>
+        <div class="OurServices">
+            <h1>Our service</h1>
+            <ul>
+               <a href="#"><li>Responsive Web Design Services</li></a>
+               <a href="#"><li>Web Development Services</li></a>
+                <a href="#"><li>eCommerce Web Design and Development Services</li></a>
+                <a href="#"><li>Wordpress Web Design and Development Services</li></a>
+
+                <a href="#"><li>Graphic Design Serivces</li></a>
+              </ul>
+        </div>
+        <div class="contactaddress">
+            <h1 style="position: relative; top: 30px;">Contact Address</h1>
+            <div class="map">
+            <img src="./map.png" width="100px">
+            <h4>Chennai Web Design Company </h4>
+            <h5>Primus Building, Door No,<br> SP-7A,1st and 2nd Floor,<br>
+                Guindy Industrial Estate,<br>Chennai - 600032.
+            </h5>
+            </div>
+            <div class ="phone">
+                    <img src="./phone.png" width="100px"><br><br>
+            <h4>Contact Number:<br>
+                +91-9790457257.</h4>
+            </div>
+            
+
+        </div>
+        
+    </div>
+    </div>
+     
+    <div class="last">
+    <div class ="copy">
+        <p>Copyright © 2016 - 2020. Chennai Web Design Company, Developed by<a href="#"> <span style="color: orange;">  Kudometrics</span></a>
+        </p>
+    </div>
+    <div class="terms">
+        <a href="#" ><li>Terms</li></a>
+        <a href="#" ><li>Career</li></a>
+        <a href="#"><li>Privacy Policy</li></a>
+    </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
